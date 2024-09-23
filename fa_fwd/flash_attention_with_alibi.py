@@ -34,7 +34,7 @@ def flash_attention_with_alibi(query, key, value, alibi):
     print(f"attn_output shape: {attn_output.shape}")
     return attn_output
 
-# 假设输入形状为 (batch_size, num_heads, seq_length, head_dim)
+# input shape:(batch_size, num_heads, seq_length, head_dim)
 batch_size = 2
 num_heads = 8
 seq_length = 16
